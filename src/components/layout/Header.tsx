@@ -25,7 +25,7 @@ const Header = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-white hover:text-red-500 transition-colors duration-300 font-medium tracking-wider uppercase text-sm"
+                className="text-white hover:text-gray-300 transition-colors duration-300 font-medium tracking-wider uppercase text-sm"
               >
                 {item.name}
               </Link>
@@ -52,7 +52,7 @@ const Header = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-white hover:text-red-500 transition-colors duration-300 font-medium tracking-wider uppercase text-sm"
+                className="text-white hover:text-gray-300 transition-colors duration-300 font-medium tracking-wider uppercase text-sm"
               >
                 {item.name}
               </Link>
@@ -60,7 +60,7 @@ const Header = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden absolute right-4 text-white hover:text-red-500">
+          <button className="md:hidden absolute right-4 text-white hover:text-gray-300">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
@@ -74,7 +74,7 @@ const Header = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-white hover:text-red-500 transition-colors duration-300 font-medium tracking-wider uppercase text-sm text-center"
+                className="text-white hover:text-gray-300 transition-colors duration-300 font-medium tracking-wider uppercase text-sm text-center"
               >
                 {item.name}
               </Link>
