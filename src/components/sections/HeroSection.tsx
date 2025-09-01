@@ -23,26 +23,16 @@ const HeroSection = () => {
       {/* Hero Content - Moved down to reveal "The Cowboy" sign */}
       <div className="relative z-10 h-full flex items-end justify-center pb-32">
         <div className="text-center max-w-4xl mx-auto px-4">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide">
-            <span className="text-white">LARAMIE&apos;S</span>
-            <br />
-            <span className="text-shadow-lg">LEGENDARY</span>
-            <br />
-            <span className="text-red-500">GOOD-TIME</span>
-            <br />
-            <span className="text-shadow-lg">HEADQUARTERS</span>
-          </h1>
-          
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
             From two-steppin&apos; to toe-tappin&apos;, live music to cold drinks - 
             we&apos;ve been keeping boots scootin&apos; for generations
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg font-semibold uppercase tracking-wide transition-all duration-300 transform hover:scale-105 border border-red-500">
+            <button className="bg-white hover:bg-gray-200 text-black px-8 py-4 text-lg font-semibold uppercase tracking-wide transition-all duration-300 transform hover:scale-105 border border-white">
               Upcoming Shows
             </button>
-            <button className="bg-white hover:bg-gray-100 text-black px-8 py-4 text-lg font-semibold uppercase tracking-wide transition-all duration-300 transform hover:scale-105 border border-white">
+            <button className="bg-black hover:bg-gray-800 text-white px-8 py-4 text-lg font-semibold uppercase tracking-wide transition-all duration-300 transform hover:scale-105 border border-white">
               Book VIP
             </button>
           </div>
@@ -55,7 +45,7 @@ const HeroSection = () => {
               <br />
               5:30 PM - 2:00 AM
             </p>
-            <p className="text-red-500 text-sm mt-2 font-medium uppercase tracking-wide">
+            <p className="text-white text-sm mt-2 font-medium uppercase tracking-wide">
               Under New Ownership!
             </p>
           </div>
