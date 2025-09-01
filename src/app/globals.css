@@ -7,9 +7,16 @@
   .text-shadow-lg {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   }
+  
+  /* Mobile-specific text shadow */
+  @media (max-width: 768px) {
+    .text-shadow-lg {
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+    }
+  }
 }
 
-/* Sparkle animation - Updated to white sparkles */
+/* Sparkle animation - Optimized for mobile */
 @keyframes sparkle-fall {
   0% {
     opacity: 0;
@@ -31,6 +38,13 @@
   animation: sparkle-fall linear infinite;
 }
 
+/* Mobile-optimized sparkle animation */
+@media (max-width: 768px) {
+  .animate-sparkle-fall {
+    animation-duration: 4s;
+  }
+}
+
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
@@ -38,7 +52,13 @@ html {
 
 /* Custom scrollbar for webkit browsers */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
+}
+
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
 }
 
 ::-webkit-scrollbar-track {
@@ -52,4 +72,53 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #9ca3af;
+}
+
+/* Mobile touch improvements */
+@media (max-width: 768px) {
+  /* Improve touch targets */
+  button, a, [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Prevent zoom on input focus on iOS */
+  input, select, textarea {
+    font-size: 16px;
+  }
+  
+  /* Better mobile typography */
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+  
+  /* Prevent horizontal scroll on mobile */
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+/* Mobile viewport fixes */
+@supports (-webkit-touch-callout: none) {
+  /* iOS specific fixes */
+  .h-screen {
+    height: -webkit-fill-available;
+  }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .animate-sparkle-fall,
+  .animate-bounce,
+  .animate-pulse {
+    animation: none;
+  }
+  
+  .transition-all,
+  .transition-colors,
+  .transition-transform {
+    transition: none;
+  }
 }
