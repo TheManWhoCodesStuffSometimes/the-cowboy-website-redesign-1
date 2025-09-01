@@ -36,7 +36,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <Link href="/">
               <Image
-                src="/assets/images/branding/The Cowboy Saloon Logo.jpg"
+                src="/assets/images/branding/cowboy_logo.jpg"
                 alt="The Cowboy Saloon Logo"
                 width={180}
                 height={120}
