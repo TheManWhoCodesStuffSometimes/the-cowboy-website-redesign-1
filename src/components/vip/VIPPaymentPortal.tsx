@@ -68,7 +68,7 @@ const VIPPaymentPortal = ({ selectedDate, selectedBeers, onBack, onReset }: VIPP
 
         <p className="text-white/70 text-sm mb-6">
           A confirmation email has been sent to {formData.email}.<br />
-          We'll contact you 24 hours before your reservation with final details.
+          We&apos;ll contact you 24 hours before your reservation with final details.
         </p>
 
         <button
@@ -227,7 +227,7 @@ const VIPPaymentPortal = ({ selectedDate, selectedBeers, onBack, onReset }: VIPP
 
           {paymentMethod === 'paypal' && (
             <div className="bg-black/50 border border-white/20 rounded-lg p-6 text-center">
-              <p className="text-white/70 mb-4">You'll be redirected to PayPal to complete your payment.</p>
+              <p className="text-white/70 mb-4">You&apos;ll be redirected to PayPal to complete your payment.</p>
               <div className="text-4xl">💳</div>
             </div>
           )}
