@@ -39,7 +39,7 @@ const SparkleOverlay = () => {
       {sparkles.map((sparkle) => (
         <div
           key={sparkle.id}
-          className="absolute w-1 h-1 bg-blue-300 rounded-full opacity-0 animate-sparkle-fall"
+          className="absolute w-1 h-1 bg-white rounded-full opacity-0 animate-sparkle-fall"
           style={{
             left: `${sparkle.x}%`,
             top: `${sparkle.y}%`,
@@ -47,7 +47,7 @@ const SparkleOverlay = () => {
             height: `${sparkle.size}px`,
             animationDuration: `${sparkle.duration}s`,
             animationDelay: `${sparkle.delay}s`,
-            boxShadow: '0 0 6px rgba(147, 197, 253, 0.8)',
+            boxShadow: '0 0 6px rgba(255, 255, 255, 0.6)',
           }}
         />
       ))}
