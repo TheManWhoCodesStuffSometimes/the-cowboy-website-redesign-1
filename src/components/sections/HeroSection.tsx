@@ -24,7 +24,7 @@ const HeroSection = () => {
       <div className="relative z-10 h-full flex items-center justify-center">
         <div className="text-center max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-wide">
-            <span className="text-amber-400">LARAMIE'S</span>
+            <span className="text-amber-400">LARAMIE&apos;S</span>
             <br />
             <span className="text-shadow-lg">LEGENDARY</span>
             <br />
@@ -34,8 +34,8 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-amber-100 mb-8 max-w-2xl mx-auto leading-relaxed">
-            From two-steppin' to toe-tappin', live music to cold drinks - 
-            we've been keeping boots scootin' for generations
+            From two-steppin&apos; to toe-tappin&apos;, live music to cold drinks - 
+            we&apos;ve been keeping boots scootin&apos; for generations
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
