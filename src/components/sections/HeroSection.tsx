@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* Hero Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/assets/images/hero/BFC01110-Enhanced-NR-2.jpg"
+          src="/assets/images/hero/hero_image.jpg"
           alt="Live music at The Cowboy Saloon"
           fill
           className="object-cover object-center"
