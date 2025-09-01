@@ -45,7 +45,7 @@ export default function VIPPage() {
       {/* What's Included */}
       <section className="bg-gray-900 py-16">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-white text-center mb-12">What's Included</h2>
+          <h2 className="text-4xl font-bold text-white text-center mb-12">What&apos;s Included</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center p-6 bg-black/50 border border-white/10">
