@@ -8,21 +8,21 @@ export default function Home() {
       <HeroSection />
       
       {/* Quick preview of what's coming */}
-      <section className="bg-neutral-900 py-16 px-4">
+      <section className="bg-black py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-amber-400 mb-8">Coming Soon</h2>
+          <h2 className="text-4xl font-bold text-white mb-8">Coming Soon</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-6 bg-black/50 border border-amber-600/30">
+            <div className="p-6 bg-gray-900/50 border border-white/10 hover:border-red-500/50 transition-colors duration-300">
               <h3 className="text-xl font-semibold text-white mb-2">Live Music Calendar</h3>
-              <p className="text-amber-100">See upcoming shows and concerts</p>
+              <p className="text-white/70">See upcoming shows and concerts</p>
             </div>
-            <div className="p-6 bg-black/50 border border-amber-600/30">
+            <div className="p-6 bg-gray-900/50 border border-white/10 hover:border-red-500/50 transition-colors duration-300">
               <h3 className="text-xl font-semibold text-white mb-2">VIP Experience</h3>
-              <p className="text-amber-100">Book your premium night out</p>
+              <p className="text-white/70">Book your premium night out</p>
             </div>
-            <div className="p-6 bg-black/50 border border-amber-600/30">
+            <div className="p-6 bg-gray-900/50 border border-white/10 hover:border-red-500/50 transition-colors duration-300">
               <h3 className="text-xl font-semibold text-white mb-2">Photo Gallery</h3>
-              <p className="text-amber-100">Relive the legendary moments</p>
+              <p className="text-white/70">Relive the legendary moments</p>
             </div>
           </div>
         </div>
