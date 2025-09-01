@@ -20,11 +20,11 @@ const HeroSection = () => {
       {/* Sparkle Overlay */}
       <SparkleOverlay />
 
-      {/* Hero Content */}
-      <div className="relative z-10 h-full flex items-center justify-center">
+      {/* Hero Content - Moved down to reveal "The Cowboy" sign */}
+      <div className="relative z-10 h-full flex items-end justify-center pb-32">
         <div className="text-center max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-wide">
-            <span className="text-amber-400">LARAMIE&apos;S</span>
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide">
+            <span className="text-white">LARAMIE&apos;S</span>
             <br />
             <span className="text-shadow-lg">LEGENDARY</span>
             <br />
@@ -33,7 +33,7 @@ const HeroSection = () => {
             <span className="text-shadow-lg">HEADQUARTERS</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-amber-100 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
             From two-steppin&apos; to toe-tappin&apos;, live music to cold drinks - 
             we&apos;ve been keeping boots scootin&apos; for generations
           </p>
@@ -42,20 +42,20 @@ const HeroSection = () => {
             <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg font-semibold uppercase tracking-wide transition-all duration-300 transform hover:scale-105 border border-red-500">
               Upcoming Shows
             </button>
-            <button className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 text-lg font-semibold uppercase tracking-wide transition-all duration-300 transform hover:scale-105 border border-amber-500">
+            <button className="bg-white hover:bg-gray-100 text-black px-8 py-4 text-lg font-semibold uppercase tracking-wide transition-all duration-300 transform hover:scale-105 border border-white">
               Book VIP
             </button>
           </div>
 
           {/* Hours Display */}
-          <div className="mt-12 p-6 bg-black/50 backdrop-blur-sm border border-amber-600/30 max-w-md mx-auto">
-            <h3 className="text-amber-400 text-lg font-semibold mb-2 uppercase tracking-wide">Hours</h3>
+          <div className="mt-12 p-6 bg-black/70 backdrop-blur-sm border border-white/20 max-w-md mx-auto">
+            <h3 className="text-white text-lg font-semibold mb-2 uppercase tracking-wide">Hours</h3>
             <p className="text-white text-lg">
               <span className="font-semibold">Wednesday - Saturday</span>
               <br />
               5:30 PM - 2:00 AM
             </p>
-            <p className="text-amber-300 text-sm mt-2 font-medium uppercase tracking-wide">
+            <p className="text-red-500 text-sm mt-2 font-medium uppercase tracking-wide">
               Under New Ownership!
             </p>
           </div>
@@ -64,8 +64,8 @@ const HeroSection = () => {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-amber-400 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-amber-400 rounded-full mt-2 animate-pulse"></div>
+        <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>
